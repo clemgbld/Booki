@@ -1,0 +1,125 @@
+/********************/
+/* General Settings */
+/********************/
+
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+
+  -webkit-text-size-adjust: 100%;
+
+  overflow-wrap: break-word;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: "Raleway", sans-serif;
+  line-height: 1;
+  font-weight: 500;
+  font-size: 16px;
+
+  width: 100%;
+}
+
+a {
+  display: inline-block;
+
+  text-decoration: none;
+
+  color: inherit;
+}
+/********************/
+/* Flex */
+/********************/
+
+.flex-full--center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/********************/
+/* Space */
+/********************/
+
+.mar-l--12 {
+  margin-left: 12px;
+}
+
+.mar-b--16 {
+  margin-bottom: 16px;
+}
+.mar-b--32 {
+  margin-bottom: 32px;
+}
+
+.mar-b--52 {
+  margin-bottom: 52px;
+}
+
+.mar-top--max {
+  margin-top: auto;
+}
+
+/********************/
+/* border */
+/********************/
+
+.round {
+  border-radius: 50%;
+}
+
+/********************/
+/* Component */
+/********************/
+
+.heading {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.7px;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+.icon--small {
+  font-size: 12px;
+}
+
+.icon--blue {
+  color: #0065fc;
+}
+
+.icon--grey {
+  color: #f2f2f2;
+}
+
+.btn-reset {
+  border: none;
+  background-color: transparent;
+}
+
+.card {
+  border-radius: 12px;
+
+  background-color: #fff;
+
+  box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.1);
+
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
