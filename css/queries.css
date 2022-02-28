@@ -108,12 +108,12 @@
     color: #0065fc;
   }
 
-  .search__text {
+  .text__search {
     display: none;
   }
 
   .icon__search {
-    display: block;
+    display: flex;
   }
 
   .lodging {
