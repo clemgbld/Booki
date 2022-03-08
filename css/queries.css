@@ -113,7 +113,7 @@
   }
 
   .icon__search {
-    display: flex;
+    display: block;
   }
 
   .lodging {
@@ -126,7 +126,7 @@
   }
 
   .popular {
-    padding: 12px;
+    padding: 22px 12px 12px 12px;
 
     border-radius: 0;
   }
