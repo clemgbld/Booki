@@ -90,6 +90,11 @@
     color: #0065fc;
   }
 
+  .section__search {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   .btn {
     border-radius: 10px;
     padding: 24px 16px;
@@ -123,6 +128,10 @@
     gap: 10px;
   }
 
+  .section__activity {
+    padding: 0 10px;
+  }
+
   .activity--container {
     height: 1450px;
     gap: 0px;
@@ -149,6 +158,11 @@
 
   .card__activity-large {
     margin-bottom: 32px;
+  }
+
+  .footer {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
